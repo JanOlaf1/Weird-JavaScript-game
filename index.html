@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>RPG - Bar Adventure</title>
+  </head>
+  <body>
+    <div id="game">
+      <div id="stats">
+        <span class="stat">Promille amount: <strong><span id="drunkennessText">0</span></strong></span>
+        <span class="stat">Quaranteed hangover %: <strong><span id="hangoverText">0</span></strong></span>
+        <span class="stat">Money: <strong><span id="moneyText">70</span></strong></span>
+        <span class="stat">Level: <strong><span id="level">0</span></strong></span>
+        <span class="stat">Energy: <strong><span id="energy">100</span></strong></span>
+
+
+      </div>
+      <div id="controls">
+        <button id="button1" onclick="handleButtonClick(1)">Go to bar</button>
+        <button id="button2" onclick="handleButtonClick(2)">Go to eat</button>
+        <button id="button3" onclick="handleButtonClick(3)">Go to work</button>
+        <button id="button4" onclick="handleButtonClick(4)">Go to sleep</button>
+        <button id="button5" onclick="goBack()">Go back </button>
+      </div>
+      <div id="playerStats">
+        <span class="stat">Player name: <strong><span id="playerName"></span></strong></span>
+      </div>
+      <div id="text">
+        <script>
+          var playerName = prompt("Before we start, give me your name:");
+          document.getElementById("playerName").innerText = playerName;
+          document.getElementById("text").innerText = "Welcome, " + playerName + ", to the Adult-life Adventure. You must navigate through the given life decisions while maintaining a balanced financial situation. Good Luck!";
+        </script>
+      </div>
+    </div>
+    <script src="./javascript/script.js" type="module"></script>
+  </body>
+</html>
