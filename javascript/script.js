@@ -1,6 +1,6 @@
 import { generateRandomQuote } from './quoteGenerator.js';
 import { Partylevel } from './partylevel.js';
-import { orderBeer, orderCocktail, drinkingGame } from './bar.js';
+import { orderBeer, orderCocktail, drinkingGame, sleep } from './bar.js';
 import { Kebab, Sushi } from './food.js';
 import { dishes, cleanHouse, office, postman} from './working.js';
 let drunkenness = 0;
@@ -108,10 +108,6 @@ function goBack() {
 function goBarCounter() {
   update(locations[0]);
 }
-function sleep(){
-
-}
-
 function performWork() {
   update(locations[2]);
 

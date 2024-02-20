@@ -66,4 +66,22 @@ function orderBeer() {
         text.innerText = "You don't have enough money. Go to work!";
       }
   }
-  export { orderBeer, orderCocktail, drinkingGame };
+  
+function sleep() {
+  if (energyAmount < 350) {
+    energyAmount += 40;
+    energy.innerText = energyAmount;
+    if(drunkenness > 0.1){
+    drunkenness -= 0.1;
+    drunkennessText.innerText = drunkenness.toFixed(2);
+    text.innerText = "Loading... ENERGYYY!!!";
+
+    } else{
+      text.innerText = "Nice to be sober, right";
+    }
+  } else {
+    text.innerText = "You are too hyperactivated! Do something else.";
+  }
+}
+
+  export { orderBeer, orderCocktail, drinkingGame, sleep };

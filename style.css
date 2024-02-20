@@ -9,7 +9,7 @@ body {
   }
   
   #game {
-    max-width: 500px;
+    max-width: 600px;
     max-height: 400px;
     background-color: #ecf0f1; 
     color: #2c3e50; 
@@ -23,13 +23,7 @@ body {
     padding: 5px;
     color: #2c3e50; 
   }
-  #monsterStats {
-    display: none;
-    border: 1px solid #2c3e50; 
-    padding: 5px;
-    color: #ffffff;
-    background-color: #c70d0d;
-  }
+  
   
   .stat {
     padding-right: 10px;
