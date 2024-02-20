@@ -28,7 +28,7 @@ function Kebab() {
         hangoverLevel -= 2;
         hangoverText.innerText = hangoverLevel;
       }
-      text.innerText = "You enjoy a tasty kebab!";
+      text.innerText = "You're at the kebab spot, are you ready to satisfy those cravings. You have eaten an mouthwatering kebab! Delicious, right! The grill is fired up, and the options are endless. What's your next pick? ";
     } else {
       text.innerText = "You don't have enough money. Go to work!";
     }
@@ -50,7 +50,7 @@ function Kebab() {
         hangoverText.innerText = hangoverLevel;
       }
   
-      text.innerText = "You enjoy a delicious plate of sushi!";
+      text.innerText = "You're at the sushi haven, prepared to indulge those cravings. You've savored a delightful sushi roll – exquisite, isn't it? The chefs are ready to roll, and the options are aplenty. What's your next pick for a delectable experience? ";
     } else {
       text.innerText = "You don't have enough money. Go to work!";
     }

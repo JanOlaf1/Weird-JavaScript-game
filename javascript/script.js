@@ -27,13 +27,13 @@ const locations = [
           name: "work",
           "button text": ["Do Dishes", "Clean the House", "Deliver Newspapers", "Work at the Office", "Go back home"],
           "button functions": [dishes, cleanHouse, postman, office, goBack],
-          text: "Responsibility first, am i right? You are at work.. What would you like to do?"
+          text: "Responsibility first, am i right? You are at work.. What would you like to do? "
         },
         {
           name: "Back to the apartment",
           "button text": ["Go to bar", "Go to eat", "Go to work", "Go to sleep", "Random Quote Generator!"],
           "button functions": [goBarCounter, goToEat, performWork, sleep, quotes],
-          text: "Damn you party animal, welcome to the bar! So you are at the bar counter.. What would you like to do?"
+          text: "Welcome home! Your cozy apartment awaits. So, you're back at your sanctuary. What's on the agenda? What would you like to do? "
         },
   /*
   {
